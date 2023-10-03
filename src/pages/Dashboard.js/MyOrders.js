@@ -21,14 +21,6 @@ const MyOrders = () => {
       </Wrapper>
     )
   }
-  if(isLoading){
-    return (
-      <Wrapper>
-        <h1 className='wra'>Loading...</h1>
-        
-      </Wrapper>
-    )
-  }
   return (
     <Wrapper>
       <button><Link className='link' to='/landing'>Back to home page</Link></button>
