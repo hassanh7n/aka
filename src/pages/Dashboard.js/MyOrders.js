@@ -23,7 +23,9 @@ const MyOrders = () => {
   }
   if(isLoading === true){
     return(
-      <Wrapper>Loading, Please wait...</Wrapper>
+      <Wrapper>
+        <h1 className='wra'>Loading, Please wait...</h1>
+      </Wrapper>
     )
   }
   return (

@@ -37,6 +37,7 @@ const ordersSlice = createSlice({
             state.isLoading = true
         })
         .addCase(getAllOrders.fulfilled, (state, {payload}) => {
+            state.isLoading = false;
             const {orders} = payload;
             state.orders = orders;
             const {count} = payload;
