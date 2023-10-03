@@ -24,7 +24,7 @@ const Cart = () => {
   }
   return (
     <Wrapper>
-      <button><Link className='link' to='/'>Back to home page</Link></button>
+      <button><Link className='link' to='/landing'>Back to home page</Link></button>
       {cartItems.map((item) => {
         return <CartItem key={item.cartID} cartItem={item} />;
       })}

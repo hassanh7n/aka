@@ -60,14 +60,14 @@ const Profile = () => {
   const onclick = () => {
     dispatch(logoutUser());
     dispatch(logouttUser());
-    Navigate('/')
+    Navigate('/landing')
   }
   return (
     <>
     <Wrapper>
       <div className="butn">
 
-      <><Link className='link' to='/landing'><h5>Back to home page?</h5></Link></>
+      <><Link className='link' to='/landing'><h5>Go to home page?</h5></Link></>
       <div className="btn-container">
           <button 
           className='btn'
