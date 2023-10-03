@@ -21,6 +21,11 @@ const MyOrders = () => {
       </Wrapper>
     )
   }
+  if(isLoading === true){
+    return(
+      <Wrapper>Loading, Please wait...</Wrapper>
+    )
+  }
   return (
     <Wrapper>
       <button><Link className='link' to='/landing'>Back to home page</Link></button>
