@@ -39,3 +39,7 @@ span{
       cursor: pointer;
       letter-spacing: var(--letterSpacing);
     }
+.btn{
+  color : black;
+  
+}

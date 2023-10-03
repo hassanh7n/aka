@@ -15,22 +15,22 @@ const Carttotals = () => {
             {/* SUBTOTAL */}
             <p className='flex '>
               <span>Subtotal : </span>
-              <span className='font-medium'>{cartTotal}</span>
+              <span className='font-medium'>{cartTotal  + "$"}</span>
             </p>
             {/* SHIPPING */}
             <p className='flex '>
               <span>Shipping fee : </span>
-              <span className='font-medium'>{shipping}</span>
+              <span className='font-medium'>{shipping  + "$"}</span>
             </p>
             {/* Tax */}
             <p className='flex '>
               <span>Tax : </span>
-              <span className='font-medium'>{tax}</span>
+              <span className='font-medium'>{tax  + "$"}</span>
             </p>
             {/* Order Total */}
             <p className='pb-2'>
               <span>Order Total : </span>
-              <span className='font-medium'>{orderTotal}</span>
+              <span className='font-medium'>{orderTotal  + "$"}</span>
             </p>
             <Link className='btn btnn' to='/checkout'>Proceed order</Link>
           </div>

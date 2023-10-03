@@ -11,7 +11,7 @@ const initialState = {
   name : "",
   password : "",
   email : "",
-  isMember : true,
+  isMember : false,
   forgetPassword : false,
   resetPassword : "",
   hobby : "",

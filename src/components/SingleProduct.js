@@ -88,7 +88,7 @@ const SingleProduct = () => {
           <section className='content'>
             <h2>{name}</h2>
             <Stars stars={averageRating} reviews={numOfReviews} />
-            <h5 className='price'>{price}</h5>
+            <h5 className='price'>{price  + "$"}</h5>
             <p className='desc'>{discription}</p>
             <p className='info'>
               <span>Available : </span>
