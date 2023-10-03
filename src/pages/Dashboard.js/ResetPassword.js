@@ -44,7 +44,7 @@ const ResetPassword = () => {
     if(user){
       return (
         setTimeout(() => {
-                Navigate('/profile')
+                Navigate('/')
               }, 3000)
       )
     }
