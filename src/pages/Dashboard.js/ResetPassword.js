@@ -98,14 +98,14 @@ const ResetPassword = () => {
           
 
 
-  <button type='submit' className='btn btn-block btn-hipster' disabled={isLoading}
+  <button type='submit' className='btn butu btn-block btn-hipster' disabled={isLoading}
   >
     
     {isLoading ? 'loading...' : 'submit'}
   </button>
   
   
-    <Link to='/register'><button  className='member-btn h3' type='button'>register?</button></Link>
+    <Link to='/register'><button  className='member-btn h3 butu' type='button'>register?</button></Link>
     
     </form>
 </div>

@@ -132,7 +132,7 @@ const Register = () => {
               
 
 
-      <button type='submit' className='btn btn-block btn-hipster' disabled={isLoading}
+      <button type='submit' className='btn butu btn-block btn-hipster' disabled={isLoading}
       >
         
         {isLoading ? 'loading...' : 'submit'}
