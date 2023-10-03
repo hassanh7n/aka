@@ -63,7 +63,7 @@ const Register = () => {
     if(user){
       return (
         setTimeout(() => {
-                Navigate('/profile')
+                Navigate('/landing')
               }, 3000)
       )
     }
