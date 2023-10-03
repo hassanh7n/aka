@@ -4,7 +4,7 @@
 }
 .main-div{
     gap: 200px;
-    background-image: url('../images/radu-florin-OP8655xgBjo-unsplash-removebg-min.png');
+    background-image: url('../images/slide-03-min.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,7 +55,7 @@
     /* display: none; */
     position: relative;
     font-size: medium;
-        top: -180px;
+        top: 180px;
         animation: slide 3s 1 forwards;
 }
 .second a{
@@ -65,10 +65,10 @@
 .icn{
     color: var(--primary-500);
 }
-@media (min-width : 400px){
+@media (min-width : 300px){
     .wrapper{
         display: grid;
-        height: 70vh;
+        height: 80vh;
     }
 }
 
