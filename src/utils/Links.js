@@ -8,25 +8,25 @@ const links = [
   {
     id: 1,
     text: 'Home',
-    path: '/',
+    path: '/landing',
     icon: <IoHomeSharp />,
   },
   {
     id: 7,
     text: ' about',
-    path: 'about',
+    path: '/about',
     icon: <SiAboutdotme />,
   },
   {
     id: 2,
     text: 'Account',
-    path: 'profile',
+    path: '/',
     icon: <ImProfile />,
   },
   {
     id: 3,
     text: 'My Orders',
-    path: 'my-orders',
+    path: '/my-orders',
     icon: <MdOutlineBorderColor />,
   },
   
