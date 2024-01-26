@@ -15,7 +15,6 @@ const Navbar = () => {
   }
   return (
     <div className="wrapper">
-     
         <div className="main-div">
           <div className="first">
           <h2 className='head'>AKAZA~</h2>

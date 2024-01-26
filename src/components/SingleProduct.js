@@ -139,9 +139,7 @@ padding: 1rem;
 background-color: #D3D3D3;
 border-radius : 10px;
 padding-bottom : 5rem;
-box-shadow: 10px 10px 8px 10px rgba(0,0,0,0.42);
-  -webkit-box-shadow: 10px 10px 8px 10px rgba(0,0,0,0.42);
-  -moz-box-shadow: 10px 10px 8px 10px rgba(0,0,0,0.42);
+
   .product-center {
     display: grid;
     gap: 0rem;
