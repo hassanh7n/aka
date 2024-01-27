@@ -143,6 +143,10 @@ const userSlice = createSlice({
             addTokenToLocalStorage(token);
             toast.success(`Welcome back ${user.name}`)
         })
+        .addCase(loginUser.rejected, (state, {payload}) => {
+            state.isLoading = false;
+            toast.error(payload)
+        })
         .addCase(logoutUser.pending, (state) => {
             state.isLoading = true
         })
