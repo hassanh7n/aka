@@ -23,7 +23,7 @@ const SideBar = () => {
             </button>
             <header>
             <nav>
-            <h1 className='head'>AKAZA Store</h1>
+            <h1 className='head'>AKAZA</h1>
                  </nav>
             </header>
               <Navlinks toggleSidebar={toggle} />
