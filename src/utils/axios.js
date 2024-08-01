@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const customFetch = axios.create({
-    baseURL : "http://localhost:5000/api/v1"
+    baseURL : "https://fluttering-jessamyn-freevoice-6000e290.koyeb.app/api/v1"
 })
 
 
