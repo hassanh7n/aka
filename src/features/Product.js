@@ -24,6 +24,7 @@ const initialState = {
 
 
 
+
 export const getAllProducts = createAsyncThunk(
     'products/allProducts',
     async(_, thunkAPI) => {
